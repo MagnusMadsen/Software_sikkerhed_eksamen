@@ -15,6 +15,6 @@
 
 **Forudsætning: kunden har en kunde konto**
 
-kunden kan bestille varer fra produkt siden og ligge i en kurv, kunden skal vælge navn de skal sendes til, adresse,by, region, post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
+kunden kan udvælge varer fra produkt siden og ligge dem i en kurv, for derefter at bestille dem via checkout på my cart siden.  kunden skal vælge navn de skal sendes til, adresse,by, region, post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
 
 
