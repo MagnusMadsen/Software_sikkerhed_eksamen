@@ -8,7 +8,7 @@
 
 **Forudsætning: at kunden har en aktiv mail** 
 
-**Tekst** 
+**kunden indtaster konto information: username, E-mail, Company name, Password, confirm password, kunden indtaster adresse informationer: Address, city, Region/state, postal code, country. Når kunden har indtastet alle information og godkender bliver kunden sendt videre ind på forsiden samtidig med at de bliver logget ind på deres kunde konto.** 
 
 
 ### brugstilfælde 2: bestilling af varer
