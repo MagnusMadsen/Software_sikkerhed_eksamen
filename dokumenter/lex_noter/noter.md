@@ -9,4 +9,4 @@
 
 brugstilfælde 
 forudsætning: kunde har en kunde konto
-- kunden skal kunne bestille varer fra produkt siden, kunden skal kunne vælge navn de skal sendes til, adresse, by,region,post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
+- kunden skal kunne bestille varer fra produkt siden, kunden skal kunne vælge navn de skal sendes til, adresse,   by,region,post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
