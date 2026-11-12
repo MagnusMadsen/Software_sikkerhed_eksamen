@@ -7,6 +7,6 @@
 - hvis man indsætter ' som navn i name to ship to smider hjemmesiden en fejl med den fulde stacktrace - spørg om  dette
 
 
-brugstilfælde 
+- brugstilfælde : bestilling af varer
 forudsætning: kunde har en kunde konto
-- kunden skal kunne bestille varer fra produkt siden, kunden skal kunne vælge navn de skal sendes til, adresse,   by,region,post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
+- kunden kan bestille varer fra produkt siden og ligge i en kurv, kunden skal vælge navn de skal sendes til, adresse,by, region, post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
