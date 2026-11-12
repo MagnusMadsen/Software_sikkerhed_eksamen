@@ -1,4 +1,16 @@
-# Brugstilfælde 
+# Systemmål 
 
 
-1. login - det er ret simpelt at logge ind på siden, det eneste krav der er, er et password på mindst 2 karakterer.
+
+
+
+## Brugstilfælde 1: Oprettelse af kundekonto på webgoat.net 
+
+#### Forudsætning: at kunden har en aktiv mail 
+
+## Tekst 
+
+
+
+
+
