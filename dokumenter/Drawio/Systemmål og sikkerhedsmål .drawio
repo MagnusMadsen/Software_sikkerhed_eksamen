@@ -1,14 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram name="Svar på blogindlæg" id="svar-paa-blogindlaeg">
-        <mxGraphModel dx="2306" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1232" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="system" connectable="0" parent="1" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#AAB8CA;strokeWidth=1.5;" vertex="1">
-                    <mxGeometry height="496" width="1000" x="-40" y="190" as="geometry"/>
+                    <mxGeometry height="516" width="1050" x="40" y="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="system-label" connectable="0" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#20344F;" value="Systemmål og sikkerhedsmål&amp;nbsp;" vertex="1">
-                    <mxGeometry height="34" width="450" x="190" y="230" as="geometry"/>
+                <mxCell id="system-label" connectable="0" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#20344F;" value="Systemmål og sikkerhedsmål&amp;nbsp;" vertex="1">
+                    <mxGeometry height="60" width="450" x="360" y="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="jPy22E4rb6EcjAEMZqAW-7" edge="1" parent="1" source="signed-in-customer" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jPy22E4rb6EcjAEMZqAW-5">
                     <mxGeometry relative="1" as="geometry"/>
@@ -17,10 +17,10 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="signed-in-customer" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" value="verificeret kunde" vertex="1">
-                    <mxGeometry height="69" width="46" x="30" y="350" as="geometry"/>
+                    <mxGeometry height="69" width="46" x="126" y="436" as="geometry"/>
                 </mxCell>
                 <mxCell id="guest" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" value="Annonym" vertex="1">
-                    <mxGeometry height="69" width="46" x="30" y="500" as="geometry"/>
+                    <mxGeometry height="69" width="46" x="126" y="567" as="geometry"/>
                 </mxCell>
                 <mxCell id="reply" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" value="Svar på blogindlæg" vertex="1">
                     <mxGeometry height="100" width="256" x="270" y="540" as="geometry"/>
@@ -37,13 +37,13 @@
                 <mxCell id="jPy22E4rb6EcjAEMZqAW-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" value="&lt;span style=&quot;color: rgb(16, 42, 69);&quot;&gt;Opret kundekonto&lt;/span&gt;" vertex="1">
                     <mxGeometry height="100" width="256" x="270" y="410" as="geometry"/>
                 </mxCell>
-                <mxCell id="jPy22E4rb6EcjAEMZqAW-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="kode injektion på blog siden" vertex="1">
+                <mxCell id="jPy22E4rb6EcjAEMZqAW-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Misbrug på blog siden" vertex="1">
                     <mxGeometry height="100" width="256" x="630" y="540" as="geometry"/>
                 </mxCell>
-                <mxCell id="jPy22E4rb6EcjAEMZqAW-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Brud på domæne primitiver ved ændring af antal af varer der lægges i kurven" vertex="1">
+                <mxCell id="jPy22E4rb6EcjAEMZqAW-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Misburg af kurv" vertex="1">
                     <mxGeometry height="100" width="256" x="630" y="276" as="geometry"/>
                 </mxCell>
-                <mxCell id="jPy22E4rb6EcjAEMZqAW-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="&lt;font color=&quot;#102a45&quot;&gt;Brute-forcing af login siden&lt;/font&gt;" vertex="1">
+                <mxCell id="jPy22E4rb6EcjAEMZqAW-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="&lt;font color=&quot;#102a45&quot;&gt;Misbrug af login siden&lt;/font&gt;" vertex="1">
                     <mxGeometry height="100" width="256" x="630" y="410" as="geometry"/>
                 </mxCell>
                 <mxCell id="jPy22E4rb6EcjAEMZqAW-12" edge="1" parent="1" source="jPy22E4rb6EcjAEMZqAW-4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jPy22E4rb6EcjAEMZqAW-10">
@@ -63,6 +63,18 @@
                         <mxPoint x="520" y="630" as="sourcePoint"/>
                         <mxPoint x="624" y="630" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="CPpRN2myxYRyLwFWXj8J-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#b85450;strokeWidth=1.8;fontSize=15;fillColor=#f8cecc;" value="Trusselsaktør" vertex="1">
+                    <mxGeometry height="69" width="46" x="970" y="437" as="geometry"/>
+                </mxCell>
+                <mxCell id="CPpRN2myxYRyLwFWXj8J-4" edge="1" parent="1" source="jPy22E4rb6EcjAEMZqAW-11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="CPpRN2myxYRyLwFWXj8J-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CPpRN2myxYRyLwFWXj8J-5" edge="1" parent="1" source="jPy22E4rb6EcjAEMZqAW-10" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="CPpRN2myxYRyLwFWXj8J-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CPpRN2myxYRyLwFWXj8J-6" edge="1" parent="1" source="jPy22E4rb6EcjAEMZqAW-9" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="CPpRN2myxYRyLwFWXj8J-1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

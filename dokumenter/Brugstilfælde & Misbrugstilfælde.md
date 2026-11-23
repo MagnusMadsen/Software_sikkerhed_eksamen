@@ -15,6 +15,8 @@
 | **Eksempel**         | ændring af antal af varer til at være negativt som medføre at trusselsaktøren modtager penge istedet for at betale for varen. |
 | **Foranstaltning**   | sikre at antallet af varer aldrig kan gå under nul.                                                                           |
 
+CIA: 
+
 
 ---
 
