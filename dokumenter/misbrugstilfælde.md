@@ -24,9 +24,6 @@
 
 ### Misbrugstilfælde 1: Oprettelse af kundekonto
 
-**Forudsætning: Overtage en kundekonto med en svag adgangskode** 
-
-**En uvedkommende får adgang til en konto, der blev oprettet med en let gættelig adgangskode, og kan læse eller ændre kundens oplysninger. Det rammer fortrolighed og integritet.** 
 
 | Felt | Beskrivelse |
 |---|---|
