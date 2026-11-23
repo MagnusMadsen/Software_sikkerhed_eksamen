@@ -15,8 +15,7 @@
 | **Eksempel**         | ændring af antal af varer til at være negativt som medføre at trusselsaktøren modtager penge istedet for at betale for varen. |
 | **Foranstaltning**   | sikre at antallet af varer aldrig kan gå under nul.                                                                           |
 
-CIA: 
-
+CIA: I indkøbskurven brydes integriteten (I), når et negativt vareantal giver en forkert ordresum og kan føre til en uberettiget udbetaling.
 
 ---
 
@@ -39,6 +38,8 @@ CIA:
 | **Eksempel**         | Trusselsaktøren har adgang til login og kan misbruge password og brugernavn, trusselsaktør har mulighed for indsættelse af kode. |
 | **Foranstaltning**   | Login siden skal have et max antal forsøg på et vis tidsrum samt afvisning af specifikke specialtegn.                            |
 
+CIA: Ved kontoovertagelse brydes fortroligheden (C), når en uvedkommende får adgang til kundedata. Uautoriserede ændringer af data bryder også integriteten (I).
+
 ---
 
 ---
@@ -58,7 +59,10 @@ CIA:
 | **Eksempel**         | Trusselsaktøren har adgang til blog siden og kan oprette svar med henblik på at misbruge siden til at anskaffe informationer og udnytte svagheder i siden. |
 | **Foranstaltning**   | Tekniske foranstaltninger i mod misbrug af svar på blogsiden <br><br>Afvisning af specifikke specialtegn,                                                  |
 
+CIA: På bloggen brydes integriteten (I), hvis en kommentar manipulerer sidens visning for andre. Fortroligheden (C) brydes, hvis beskyttede oplysninger afsløres.
+
 
 ---
 
 ---
+
