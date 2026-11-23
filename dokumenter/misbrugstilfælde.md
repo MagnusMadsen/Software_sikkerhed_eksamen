@@ -12,10 +12,10 @@
 
 | Felt | Beskrivelse |
 |---|---|
-| **Misbrugstilfælde** | bestilling af negative antal af varer eller ved ændring af pris |
+| **Misbrugstilfælde** | bestilling af negative antal af varer  |
 | **Forudsætning** |trusselsaktør har adgang til siden med produkter samt indkøbskurv|
-| **Eksempel** | trusselsaktør har adgang til siden med produkter samt indkøbskurv og har mulighed for at bestille negative mængder af varer sådan at trusselsaktøren har mulighed for at få penge tilbage istedet for at betale. |
-| **Foranstaltning** | fast satte priser der ikke kan ændres i flowet sådan at priserne er immutable og antal af varer aldrig kan gå i minus, det kan gøres ved at opsætte siden med korrekte domæne primitiver og opretholdelse af disse i koden |
+| **Eksempel** | ændring af antal af varer til at være et som vil medføre at trusselsaktøren anskaffer penge istedet for at betale for varen. |
+| **Foranstaltning** | sikre at antallet af varer aldrig kan gå under nul. |
 
 
 ---
@@ -33,10 +33,10 @@
 
 | Felt | Beskrivelse |
 |---|---|
-| **Misbrugstilfælde** | overtagelse af en kunde konto gennem brute-forcing eller kode-injection |
+| **Misbrugstilfælde** | overtagelse af en kunde konto gennem brute-forcing |
 | **Forudsætning** |trusselsaktør har adgang til login mulighed|
 | **Eksempel** | trusselsaktøren har adgang til login og kan brute force på password eller/samt brugernavn, trusselsaktør har mulighed for indsættelse af kode . |
-| **Foranstaltning** | login siden kan beskyttes via rate limiting for at forhindre brute forcing og input validering for at forhindre kode-injection |
+| **Foranstaltning** | login siden skal have et max antal forsøg på et vis tidsrum. |
 
 ---
 
@@ -55,7 +55,7 @@
 |---|---|
 | **Misbrugstilfælde** | Svar på blogindlæg med malicious kode |
 | **Forudsætning** | trusselsaktør har adgang til blog siden. |
-| **Eksempel** | trusselsaktøren har adgang til blog siden og kan oprette svar med kode stykker i, enten til SQL-injection eller scripting. |
-| **Foranstaltning** | svar feltet har korrekt input validering og tillader ikke kode som bruger input, kode bliver sorteret fra eller saniteret sådan det ikke bliver behandlet som kode men som rene strings. |
+| **Eksempel** | trusselsaktøren har adgang til blog siden og kan oprette svar med henblik på at misbruge siden. |
+| **Foranstaltning** | tekniske foranstaltninger i mod misbrug af svar på blogsiden. |
 
 
