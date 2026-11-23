@@ -10,3 +10,5 @@ x64/
 app/
 packages
 .obsidian
+.DS_Store 
+.DS
