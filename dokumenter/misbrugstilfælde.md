@@ -24,10 +24,13 @@
 
 ### Misbrugstilfælde 1: Oprettelse af kundekonto
 
-**Forudsætning: Overtage en kundekonto med en svag adgangskode** 
 
-**En uvedkommende får adgang til en konto, der blev oprettet med en let gættelig adgangskode, og kan læse eller ændre kundens oplysninger. Det rammer fortrolighed og integritet.** 
-
+| Felt | Beskrivelse |
+|---|---|
+| **Misbrugstilfælde** | overtagelse af en kunde konto gennem brute-forcing eller kode-injection |
+| **Forudsætning** |trusselsaktør har adgang til login mulighed|
+| **Eksempel** | trusselsaktøren har adgang til login og kan brute force på password eller/samt brugernavn, trusselsaktør har mulighed for indsættelse af kode . |
+| **Foranstaltning** | login siden kan beskyttes via rate limiting for at forhindre brute forcing og input validering for at forhindre kode-injection |
 
 ---
 
