@@ -59,6 +59,8 @@ Country
 
 
 
+
+
 ## Kodegennemgang af registrering og checkout
 
 Observationerne bygger på en statisk gennemgang af kildekoden og SQLite-skemaet.
