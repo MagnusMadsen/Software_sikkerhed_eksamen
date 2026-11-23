@@ -49,8 +49,3 @@
 | **Forudsætning** | trusselsaktør har adgang til blog siden. |
 | **Eksempel** | Kunden skal have mulighed for at skrive og indsende svar eller kommentarer til virksomhedens blogindlæg. Dette skal kunne foregå enten ved, at kunden er logget ind med sin egen konto, eller ved at kunden kan indsende et svar uden at skulle logge ind. |
 
-### Misbrugstilfælde 3: Svar på blogindlæg
-
-**Forudsætning: Der findes et blogindlæg, hvor besøgende kan indsende kommentarer.**
-
-**En besøgende offentliggør en kommentar, der ændrer visningen af blogsiden for andre læsere. Det rammer integriteten af bloggens visning og kan vildlede læserne.**
