@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Svar på blogindlæg" id="svar-paa-blogindlaeg">
-        <mxGraphModel dx="1021" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="942" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,13 +37,13 @@
                 <mxCell id="jPy22E4rb6EcjAEMZqAW-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" value="&lt;span style=&quot;color: rgb(16, 42, 69);&quot;&gt;Opret kundekonto&lt;/span&gt;" vertex="1">
                     <mxGeometry height="100" width="256" x="270" y="410" as="geometry"/>
                 </mxCell>
-                <mxCell id="jPy22E4rb6EcjAEMZqAW-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Misbrug af blog siden, til uautoriseret adgang til informationer og rettigheder&amp;nbsp;" vertex="1">
+                <mxCell id="jPy22E4rb6EcjAEMZqAW-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Svar på blogindlæg med skadeligt indhold&amp;nbsp;" vertex="1">
                     <mxGeometry height="100" width="256" x="630" y="540" as="geometry"/>
                 </mxCell>
-                <mxCell id="jPy22E4rb6EcjAEMZqAW-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Får penge ved misbrug af kurv" vertex="1">
+                <mxCell id="jPy22E4rb6EcjAEMZqAW-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Bestilling af negative varer" vertex="1">
                     <mxGeometry height="100" width="256" x="630" y="276" as="geometry"/>
                 </mxCell>
-                <mxCell id="jPy22E4rb6EcjAEMZqAW-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Adgang til anden kundekonto ved misbrug af login siden" vertex="1">
+                <mxCell id="jPy22E4rb6EcjAEMZqAW-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1;fontSize=17;" value="Misburg af adgang til anden kundes konto" vertex="1">
                     <mxGeometry height="100" width="256" x="630" y="410" as="geometry"/>
                 </mxCell>
                 <mxCell id="jPy22E4rb6EcjAEMZqAW-12" edge="1" parent="1" source="jPy22E4rb6EcjAEMZqAW-4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jPy22E4rb6EcjAEMZqAW-10">
