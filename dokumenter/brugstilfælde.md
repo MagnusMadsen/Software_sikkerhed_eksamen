@@ -18,3 +18,9 @@
 kunden kan udvælge varer fra produkt siden og ligge dem i en kurv, for derefter at bestille dem via checkout på my cart siden.  kunden skal vælge navn de skal sendes til, adresse,by, region, post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
 
 
+### brugstilfælde 3: offentliggørelse af en blogkommentar
+
+**Forudsætning: der findes et blogindlæg**
+
+Den besøgende åbner bloggen, finder et blogindlæg og vælger *Respond*. Den besøgende skriver sin kommentar og sender den med *Submit Response*. Systemet gemmer kommentaren og sender den besøgende tilbage til bloggen, hvor andre besøgende kan læse kommentaren under indlægget.
+
