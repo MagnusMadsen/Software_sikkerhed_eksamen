@@ -4,9 +4,9 @@
 |---|---|
 | **Brugstilfælde** | Bestilling af varer |
 | **Forudsætning** | Kunden har en kunde konto. |
-| **Eksempel** | Kunden kan vælge varer fra produktsiden og lægge dem i en indkøbskurv. Under bestillingen skal kunden kunne indtaste de nødvendige oplysninger, såsom navn på modtager, adresse, by, region, postnummer og land. Kunden skal desuden kunne vælge leveringsmetode og kreditkort informationer herunder registeringsnummer, konto nummer, sikkerhedskode, som betalingen skal gennemføres med. |
+| **Eksempel** | Kunden kan vælge varer fra produktsiden og lægge dem i en indkøbskurv. Under bestillingen skal kunden indtaste de nødvendige oplysninger, såsom navn på modtager, adresse, by, region, postnummer og land. Kunden skal desuden vælge leveringsmetode og kreditkort informationer herunder registeringsnummer, konto nummer, sikkerhedskode, som betalingen skal gennemføres med. |
 
-### Misbrugstilfælde 1: Bestilling af varer
+### Misbrugstilfælde 1: Brud på domæne primitiver ved ændring af antal af varer der lægges i kurven
 
 
 
@@ -26,9 +26,9 @@
 |---|---|
 | **Brugstilfælde** | Oprettelse af kundekonto på webgoat.net |
 | **Forudsætning** | Kunden har en aktiv e-mail. |
-| **Eksempel** | Kunden indtaster kontooplysninger såsom brugernavn, e-mail, firmanavn, adgangskode og bekræftelse af adgangskode. Kunden indtaster desuden adresseoplysninger såsom adresse, by, region, postnummer og land. Når kunden har indtastet alle oplysninger og godkendt oprettelsen, bliver kunden sendt videre til forsiden og samtidig logget ind på sin kundekonto. |
+| **Eksempel** | Kunden indtaster kontooplysninger såsom brugernavn, e-mail, firmanavn, adgangskode og bekræftelse af adgangskode. Kunden indtaster desuden adresse oplysninger såsom adresse, by, region, postnummer og land. Når kunden har indtastet alle oplysninger og godkendt oprettelsen, skal kunden sendes videre til forsiden og samtidig logges ind på sin kundekonto. |
 
-### Misbrugstilfælde 2: Oprettelse af kundekonto
+### Misbrugstilfælde 2: Brute-forcing af login siden
 
 
 | Felt | Beskrivelse |
@@ -50,7 +50,7 @@
 
 
 
-## missbrugstilfælde 3: svar på blog indlæg 
+## missbrugstilfælde 3: kode injection på blog siden
 | Felt | Beskrivelse |
 |---|---|
 | **Misbrugstilfælde** | Svar på blogindlæg med malicious kode |
