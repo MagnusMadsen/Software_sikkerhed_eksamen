@@ -39,6 +39,22 @@ Country
 
 **En uvedkommende får adgang til en konto, der blev oprettet med en let gættelig adgangskode, og kan læse eller ændre kundens oplysninger. Det rammer fortrolighed og integritet.** 
 
+### Misbrugstilfælde 2: Bestilling af varer
+
+**Forudsætning: Kunden har en kundekonto og varer i kurven.**
+
+**En kunde får registreret en ordre til et lavere beløb end den korrekte pris for varer og levering. Det rammer integriteten af ordredata og kan give webshoppen et økonomisk tab.**
+
+### Misbrugstilfælde 3: Svar på blogindlæg
+
+**Forudsætning: Der findes et blogindlæg, hvor besøgende kan indsende kommentarer.**
+
+**En besøgende offentliggør en kommentar, der ændrer visningen af blogsiden for andre læsere. Det rammer integriteten af bloggens visning og kan vildlede læserne.**
+
+
+
+
+
 
 
 
