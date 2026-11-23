@@ -42,13 +42,11 @@
 
 
 ## missbrugstilfælde: svar på blog indlæg 
-
+| Felt | Beskrivelse |
+|---|---|
 | **Misbrugstilfælde** | Svar på blogindlæg med malicious kode |
-
 | **Forudsætning** | trusselsaktør har adgang til blog siden. |
-
 | **Eksempel** | trusselsaktøren har adgang til blog siden og kan oprette svar med kode stykker i, enten til SQL-injection eller scripting. |
-
 | **Foranstaltning** | svar feltet har korrekt input validering og tillader ikke kode som bruger input, kode bliver sorteret fra eller saniteret sådan det ikke bliver behandlet som kode men som rene strings. |
 
 
