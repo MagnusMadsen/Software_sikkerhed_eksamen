@@ -1,49 +1,49 @@
-<mxfile host="Electron">
-  <diagram name="Svar på blogindlæg" id="svar-paa-blogindlaeg">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="system" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#AAB8CA;strokeWidth=1.5;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="184" y="166" width="915" height="496" as="geometry" />
-        </mxCell>
-        <mxCell id="system-label" value="WebGoat.NET" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#20344F;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="210" y="185" width="210" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="signed-in-customer" value="Indlogget kunde" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="70" y="296" width="46" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="guest" value="Gæst" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="70" y="506" width="46" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="reply" value="Svar på blogindlæg" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="288" y="374" width="256" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="write" value="Skriv kommentar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="725" y="292" width="268" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="submit" value="Indsend kommentar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="725" y="468" width="268" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="blog-access" value="&lt;b&gt;Forudsætning&lt;/b&gt;&lt;br&gt;Brugeren har adgang til bloggen." style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="280" y="249" width="272" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="customer-reply" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.26;" edge="1" parent="1" source="signed-in-customer" target="reply">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="guest-reply" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.74;" edge="1" parent="1" source="guest" target="reply">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="include-write" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.24;entryX=0;entryY=0.5;" edge="1" parent="1" source="reply" target="write">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="include-submit" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.76;entryX=0;entryY=0.5;" edge="1" parent="1" source="reply" target="submit">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="reply-precondition" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="reply" target="blog-access">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Svar på blogindlæg" id="svar-paa-blogindlaeg">
+        <mxGraphModel dx="1088" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="system" connectable="0" parent="1" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#AAB8CA;strokeWidth=1.5;" vertex="1">
+                    <mxGeometry height="496" width="915" x="184" y="166" as="geometry"/>
+                </mxCell>
+                <mxCell id="system-label" connectable="0" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#20344F;" value="&lt;span style=&quot;color: rgb(32, 52, 79);&quot;&gt;Brugstilfælde 3. -&amp;nbsp;Svar på blogindlæg&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="34" width="450" x="210" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="signed-in-customer" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" value="Indlogget kunde" vertex="1">
+                    <mxGeometry height="69" width="46" x="70" y="296" as="geometry"/>
+                </mxCell>
+                <mxCell id="guest" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" value="Gæst" vertex="1">
+                    <mxGeometry height="69" width="46" x="70" y="506" as="geometry"/>
+                </mxCell>
+                <mxCell id="reply" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" value="Svar på blogindlæg" vertex="1">
+                    <mxGeometry height="100" width="256" x="288" y="374" as="geometry"/>
+                </mxCell>
+                <mxCell id="write" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" value="Skriv kommentar" vertex="1">
+                    <mxGeometry height="84" width="268" x="725" y="292" as="geometry"/>
+                </mxCell>
+                <mxCell id="submit" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" value="Indsend kommentar" vertex="1">
+                    <mxGeometry height="84" width="268" x="725" y="468" as="geometry"/>
+                </mxCell>
+                <mxCell id="blog-access" parent="1" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" value="&lt;b&gt;Forudsætning&lt;/b&gt;&lt;br&gt;Brugeren har adgang til bloggen." vertex="1">
+                    <mxGeometry height="76" width="272" x="280" y="249" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer-reply" edge="1" parent="1" source="signed-in-customer" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.26;" target="reply">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="guest-reply" edge="1" parent="1" source="guest" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.74;" target="reply">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="include-write" edge="1" parent="1" source="reply" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.24;entryX=0;entryY=0.5;" target="write" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="include-submit" edge="1" parent="1" source="reply" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.76;entryX=0;entryY=0.5;" target="submit" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="reply-precondition" edge="1" parent="1" source="reply" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="blog-access">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

@@ -1,67 +1,67 @@
-<mxfile host="Electron">
-  <diagram name="Oprettelse af kundekonto" id="oprettelse-af-kundekonto">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="system" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#AAB8CA;strokeWidth=1.5;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="184" y="110" width="915" height="600" as="geometry" />
-        </mxCell>
-        <mxCell id="system-label" value="WebGoat.NET" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#20344F;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="210" y="129" width="210" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="customer" value="Kunde" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="70" y="376" width="46" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="create-account" value="Opret kundekonto" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="260" y="348" width="244" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="account-info" value="Angiv kontooplysninger" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="655" y="204" width="245" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="confirm" value="Godkend oprettelsen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="655" y="357" width="245" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="address" value="Angiv adresseoplysninger&lt;br&gt;(valgfrit)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="655" y="512" width="245" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="email-required" value="&lt;b&gt;Forudsætning&lt;/b&gt;&lt;br&gt;Kunden har en aktiv e-mailadresse." style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="248" y="203" width="268" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="result" value="&lt;b&gt;Resultat&lt;/b&gt;&lt;br&gt;Kunden bliver logget ind og sendt til forsiden." style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="244" y="540" width="276" height="93" as="geometry" />
-        </mxCell>
-        <mxCell id="account-fields" value="Brugernavn&lt;br&gt;E-mail&lt;br&gt;Firmanavn&lt;br&gt;Adgangskode&lt;br&gt;Bekræft adgangskode" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="922" y="181" width="160" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="address-fields" value="Adresse, by og region&lt;br&gt;Postnummer og land" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="922" y="510" width="160" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="customer-registration" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="customer" target="create-account">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="include-account-info" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.2;entryX=0;entryY=0.5;" edge="1" parent="1" source="create-account" target="account-info">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="include-confirm" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="create-account" target="confirm">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="extend-address" value="«extend»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" edge="1" parent="1" source="address" target="create-account">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="registration-precondition" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="create-account" target="email-required">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="registration-result" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="create-account" target="result">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="account-details" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="account-info" target="account-fields">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="address-details" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="address" target="address-fields">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Oprettelse af kundekonto" id="oprettelse-af-kundekonto">
+        <mxGraphModel dx="1056" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="system" connectable="0" parent="1" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#AAB8CA;strokeWidth=1.5;" vertex="1">
+                    <mxGeometry height="600" width="915" x="184" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="system-label" connectable="0" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#20344F;" value="Brugstilfælde 2. -&amp;nbsp;Oprettelse af kundekonto" vertex="1">
+                    <mxGeometry height="34" width="445" x="210" y="129" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" value="Kunde" vertex="1">
+                    <mxGeometry height="69" width="46" x="70" y="376" as="geometry"/>
+                </mxCell>
+                <mxCell id="create-account" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" value="Opret kundekonto" vertex="1">
+                    <mxGeometry height="102" width="244" x="260" y="348" as="geometry"/>
+                </mxCell>
+                <mxCell id="account-info" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" value="Angiv kontooplysninger" vertex="1">
+                    <mxGeometry height="84" width="245" x="655" y="204" as="geometry"/>
+                </mxCell>
+                <mxCell id="confirm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" value="Godkend oprettelsen" vertex="1">
+                    <mxGeometry height="84" width="245" x="655" y="357" as="geometry"/>
+                </mxCell>
+                <mxCell id="address" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" value="Angiv adresseoplysninger&lt;br&gt;(valgfrit)" vertex="1">
+                    <mxGeometry height="84" width="245" x="655" y="512" as="geometry"/>
+                </mxCell>
+                <mxCell id="email-required" parent="1" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" value="&lt;b&gt;Forudsætning&lt;/b&gt;&lt;br&gt;Kunden har en aktiv e-mailadresse." vertex="1">
+                    <mxGeometry height="76" width="268" x="248" y="203" as="geometry"/>
+                </mxCell>
+                <mxCell id="result" parent="1" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" value="&lt;b&gt;Resultat&lt;/b&gt;&lt;br&gt;Kunden bliver logget ind og sendt til forsiden." vertex="1">
+                    <mxGeometry height="93" width="276" x="244" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="account-fields" parent="1" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" value="Brugernavn&lt;br&gt;E-mail&lt;br&gt;Firmanavn&lt;br&gt;Adgangskode&lt;br&gt;Bekræft adgangskode" vertex="1">
+                    <mxGeometry height="130" width="160" x="922" y="181" as="geometry"/>
+                </mxCell>
+                <mxCell id="address-fields" parent="1" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" value="Adresse, by og region&lt;br&gt;Postnummer og land" vertex="1">
+                    <mxGeometry height="88" width="160" x="922" y="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer-registration" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.5;" target="create-account">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="include-account-info" edge="1" parent="1" source="create-account" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.2;entryX=0;entryY=0.5;" target="account-info" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="include-confirm" edge="1" parent="1" source="create-account" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="confirm" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="extend-address" edge="1" parent="1" source="address" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" target="create-account" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="registration-precondition" edge="1" parent="1" source="create-account" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="email-required">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="registration-result" edge="1" parent="1" source="create-account" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="result">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="account-details" edge="1" parent="1" source="account-info" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="account-fields">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="address-details" edge="1" parent="1" source="address" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="address-fields">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
