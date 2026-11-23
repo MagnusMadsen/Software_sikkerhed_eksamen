@@ -4,7 +4,7 @@
 |---|---|
 | **Brugstilfælde** | Bestilling af varer |
 | **Forudsætning** | Kunden har en kunde konto. |
-| **Eksempel** | Kunden kan vælge varer fra produktsiden og lægge dem i en indkøbskurv. Under bestillingen skal kunden kunne indtaste de nødvendige oplysninger, såsom navn på modtager, adresse, by, region, postnummer og land. Kunden skal desuden kunne vælge leveringsmetode og det kreditkort, som betalingen skal gennemføres med. |
+| **Eksempel** | Kunden kan vælge varer fra produktsiden og lægge dem i en indkøbskurv. Under bestillingen skal kunden kunne indtaste de nødvendige oplysninger, såsom navn på modtager, adresse, by, region, postnummer og land. Kunden skal desuden kunne vælge leveringsmetode og kreditkort informationer herunder registeringsnummer, konto nummer, sikkerhedskode, som betalingen skal gennemføres med. |
 
 ### Misbrugstilfælde 1: Bestilling af varer
 
@@ -12,9 +12,9 @@
 
 | Felt | Beskrivelse |
 |---|---|
-| **Misbrugstilfælde** | bestilling af varer i negative tal eller ved ændring af pris |
+| **Misbrugstilfælde** | bestilling af negative antal af varer eller ved ændring af pris |
 | **Forudsætning** |trusselsaktør har adgang til siden med produkter samt indkøbskurv|
-| **Eksempel** | trusselsaktør har adgang til siden med produkter samt indkøbskurv og har mulighed for at ændre i tal sådan at trusselsaktøren har mulighed for at få penge tilbage igen. |
+| **Eksempel** | trusselsaktør har adgang til siden med produkter samt indkøbskurv og har mulighed for at bestille negative mængder af varer sådan at trusselsaktøren har mulighed for at få penge tilbage istedet for at betale. |
 | **Foranstaltning** | fast satte priser der ikke kan ændres i flowet sådan at priserne er immutable og antal af varer aldrig kan gå i minus, det kan gøres ved at opsætte siden med korrekte domæne primitiver og opretholdelse af disse i koden |
 
 
