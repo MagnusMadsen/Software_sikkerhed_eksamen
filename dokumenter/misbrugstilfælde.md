@@ -12,6 +12,16 @@
 
 **En kunde får registreret en ordre til et lavere beløb end den korrekte pris for varer og levering. Det rammer integriteten af ordredata og kan give webshoppen et økonomisk tab.**
 
+
+
+| Felt | Beskrivelse |
+|---|---|
+| **Misbrugstilfælde** | bestilling af varer i negative tal eller ved ændring af pris |
+| **Forudsætning** |trusselsaktør har adgang til siden med produkter samt indkøbskurv|
+| **Eksempel** | trusselsaktør har adgang til siden med produkter samt indkøbskurv og har mulighed for at ændre i tal sådan at trusselsaktøren har mulighed for at få penge tilbage igen. |
+| **Foranstaltning** | fast satte priser der ikke kan ændres i flowet sådan at priserne er immutable og antal af varer aldrig kan gå i minus, det kan gøres ved at opsætte siden med korrekte domæne primitiver og opretholdelse af disse i koden |
+
+
 ---
 
 ## Brugstilfælde: Oprettelse af kundekonto på webgoat.net
@@ -22,7 +32,7 @@
 | **Forudsætning** | Kunden har en aktiv e-mail. |
 | **Eksempel** | Kunden indtaster kontooplysninger såsom brugernavn, e-mail, firmanavn, adgangskode og bekræftelse af adgangskode. Kunden indtaster desuden adresseoplysninger såsom adresse, by, region, postnummer og land. Når kunden har indtastet alle oplysninger og godkendt oprettelsen, bliver kunden sendt videre til forsiden og samtidig logget ind på sin kundekonto. |
 
-### Misbrugstilfælde 1: Oprettelse af kundekonto
+### Misbrugstilfælde 2: Oprettelse af kundekonto
 
 
 | Felt | Beskrivelse |
