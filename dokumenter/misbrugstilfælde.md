@@ -25,3 +25,13 @@
 | **Brugstilfælde** | Svar på blogindlæg |
 | **Forudsætning** | Kunden har adgang til blog siden. |
 | **Eksempel** | Kunden skal have mulighed for at skrive og indsende svar eller kommentarer til virksomhedens blogindlæg. Dette skal kunne foregå enten ved, at kunden er logget ind med sin egen konto, eller ved at kunden kan indsende et svar uden at skulle logge ind. |
+
+
+
+## missbrugstilfælde: svar på blog indlæg 
+
+| Felt | Beskrivelse |
+|---|---|
+| **Misbrugstilfælde** | Svar på blogindlæg med malicious kode |
+| **Forudsætning** | trusselsaktør har adgang til blog siden. |
+| **Eksempel** | Kunden skal have mulighed for at skrive og indsende svar eller kommentarer til virksomhedens blogindlæg. Dette skal kunne foregå enten ved, at kunden er logget ind med sin egen konto, eller ved at kunden kan indsende et svar uden at skulle logge ind. |
