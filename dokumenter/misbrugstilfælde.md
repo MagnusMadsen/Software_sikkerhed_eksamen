@@ -8,10 +8,6 @@
 
 ### Misbrugstilfælde 1: Bestilling af varer
 
-**Forudsætning: Kunden har en kundekonto og varer i kurven.**
-
-**En kunde får registreret en ordre til et lavere beløb end den korrekte pris for varer og levering. Det rammer integriteten af ordredata og kan give webshoppen et økonomisk tab.**
-
 
 
 | Felt | Beskrivelse |
