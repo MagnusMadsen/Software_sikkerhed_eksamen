@@ -1,26 +1,27 @@
-# Systemmål 
+## Brugstilfælde: Bestilling af varer
 
+| Felt | Beskrivelse |
+|---|---|
+| **Brugstilfælde** | Bestilling af varer |
+| **Forudsætning** | Kunden har en kunde konto. |
+| **Eksempel** | Kunden kan vælge varer fra produktsiden og lægge dem i en indkøbskurv. Under bestillingen skal kunden kunne indtaste de nødvendige oplysninger, såsom navn på modtager, adresse, by, region, postnummer og land. Kunden skal desuden kunne vælge leveringsmetode og det kreditkort, som betalingen skal gennemføres med. |
 
-## brugstilfælde
+---
 
+## Brugstilfælde: Oprettelse af kundekonto på webgoat.net
 
-### Brugstilfælde 1: Oprettelse af kundekonto på webgoat.net 
+| Felt | Beskrivelse |
+|---|---|
+| **Brugstilfælde** | Oprettelse af kundekonto på webgoat.net |
+| **Forudsætning** | Kunden har en aktiv e-mail. |
+| **Eksempel** | Kunden indtaster kontooplysninger såsom brugernavn, e-mail, firmanavn, adgangskode og bekræftelse af adgangskode. Kunden indtaster desuden adresseoplysninger såsom adresse, by, region, postnummer og land. Når kunden har indtastet alle oplysninger og godkendt oprettelsen, bliver kunden sendt videre til forsiden og samtidig logget ind på sin kundekonto. |
 
-**Forudsætning: at kunden har en aktiv mail** 
+---
 
-**kunden indtaster konto information: username, E-mail, Company name, Password, confirm password, kunden indtaster adresse informationer: Address, city, Region/state, postal code, country. Når kunden har indtastet alle information og godkender bliver kunden sendt videre ind på forsiden samtidig med at de bliver logget ind på deres kunde konto.** 
+## Brugstilfælde: Svar på blogindlæg
 
-
-### brugstilfælde 2: bestilling af varer
-
-**Forudsætning: kunden har en kunde konto**
-
-kunden kan udvælge varer fra produkt siden og ligge dem i en kurv, for derefter at bestille dem via checkout på my cart siden.  kunden skal vælge navn de skal sendes til, adresse,by, region, post kode, lande, metode de skal sendes med, og kredit kort de vil betale med.
-
-
-### brugstilfælde 3: offentliggørelse af en blogkommentar
-
-**Forudsætning: der findes et blogindlæg**
-
-Den besøgende åbner bloggen, finder et blogindlæg og vælger *Respond*. Den besøgende skriver sin kommentar og sender den med *Submit Response*. Systemet gemmer kommentaren og sender den besøgende tilbage til bloggen, hvor andre besøgende kan læse kommentaren under indlægget.
-
+| Felt | Beskrivelse |
+|---|---|
+| **Brugstilfælde** | Svar på blogindlæg |
+| **Forudsætning** | Kunden har adgang til blog siden. |
+| **Eksempel** | Kunden skal have mulighed for at skrive og indsende svar eller kommentarer til virksomhedens blogindlæg. Dette skal kunne foregå enten ved, at kunden er logget ind med sin egen konto, eller ved at kunden kan indsende et svar uden at skulle logge ind. |
