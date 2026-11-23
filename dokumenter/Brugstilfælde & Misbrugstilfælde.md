@@ -26,9 +26,9 @@ CIA: I indkøbskurven brydes integriteten (I), når et negativt vareantal giver 
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Brugstilfælde** | Oprettelse af kundekonto                                                                                                                                                                                                                                                                                                                                     |
 | **Forudsætning**  | Kunden har en aktiv e-mail.                                                                                                                                                                                                                                                                                                                                  |
-| **Eksempel**      | Kunden indtaster kontooplysninger: brugernavn, e-mail, firmanavn, adgangskode og bekræftelse af adgangskode. Kunden indtaster desuden adresse oplysninger såsom adresse, by, region, postnummer og land. Når kunden har indtastet alle oplysninger og godkendt oprettelsen, skal kunden sendes videre til forsiden og samtidig logges ind på sin kundekonto. |
+| **Eksempel**      | Kunden indtaster kontooplysninger: brugernavn, e-mail, firmanavn, adgangskode og bekræftelse af adgangskode. Kunden indtaster desuden adresse oplysninger, adresse, by, region, postnummer og land. Når kunden har indtastet alle oplysninger og godkendt oprettelsen, skal kunden sendes videre til forsiden og samtidig logges ind på sin kundekonto. |
 
-### Misbrugstilfælde 2:  Misbrug af login siden
+### Misbrugstilfælde 2:  Misbrug af adgang til anden kundes konto
 
 | Felt                 | Beskrivelse                                                                                                                      |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ CIA: Ved kontoovertagelse brydes fortroligheden (C), når en uvedkommende får a
 | **Forudsætning**  | Har adgang til blog sid                                                                                                                                                                                                                           |
 | **Eksempel**    Skal have mulighed for at skrive og indsende kommentarer til virksomhedens blogindlæg. Dette skal kunne foregå enten ved, at kunden er logget ind med sin egen konto, eller ved at brugeren kan indsende et svar uden at skulle være logget ind. ind. |
 
-## Misbrugstilfælde 3: Svar på blogindlæg med hensigt på misbrug                                                        
+## Misbrugstilfælde 3: Svar på blogindlæg med skadeligt indhold                                                       
 | Felt                 | Beskrivelse                                                                                                                                                |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Misbrugstilfælde** | Svar på blogindlæg med hensigt på misbrug                                                                                                                  |
