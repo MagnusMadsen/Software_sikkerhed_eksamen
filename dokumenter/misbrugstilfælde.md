@@ -1,4 +1,4 @@
-## Brugstilfælde: Bestilling af varer
+## Brugstilfælde 1: Bestilling af varer
 
 | Felt | Beskrivelse |
 |---|---|
@@ -6,7 +6,7 @@
 | **Forudsætning** | Kunden har en kunde konto. |
 | **Eksempel** | Kunden kan vælge varer fra produktsiden og lægge dem i en indkøbskurv. Under bestillingen skal kunden kunne indtaste de nødvendige oplysninger, såsom navn på modtager, adresse, by, region, postnummer og land. Kunden skal desuden kunne vælge leveringsmetode og det kreditkort, som betalingen skal gennemføres med. |
 
-### Misbrugstilfælde 2: Bestilling af varer
+### Misbrugstilfælde 1: Bestilling af varer
 
 **Forudsætning: Kunden har en kundekonto og varer i kurven.**
 
@@ -24,7 +24,7 @@
 
 ---
 
-## Brugstilfælde: Oprettelse af kundekonto på webgoat.net
+## Brugstilfælde 2: Oprettelse af kundekonto på webgoat.net
 
 | Felt | Beskrivelse |
 |---|---|
@@ -44,7 +44,7 @@
 
 ---
 
-## Brugstilfælde: Svar på blogindlæg
+## Brugstilfælde 3: Svar på blogindlæg
 
 | Felt | Beskrivelse |
 |---|---|
@@ -54,7 +54,7 @@
 
 
 
-## missbrugstilfælde: svar på blog indlæg 
+## missbrugstilfælde 3: svar på blog indlæg 
 | Felt | Beskrivelse |
 |---|---|
 | **Misbrugstilfælde** | Svar på blogindlæg med malicious kode |
