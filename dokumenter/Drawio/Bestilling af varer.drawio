@@ -1,0 +1,61 @@
+<mxfile host="Electron">
+  <diagram name="Bestilling af varer" id="AddyEJbzG4xOLuGew1kT">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#AAB8CA;strokeWidth=1.5;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="184" y="110" width="915" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="system-label" value="WebGoat.NET" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#20344F;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="129" width="210" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="customer" value="Kunde" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=5;strokeColor=#243952;strokeWidth=1.8;fontColor=#162A44;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="376" width="46" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="order" value="Bestil varer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5EEFA;strokeColor=#2E5B8E;strokeWidth=2;fontColor=#102A45;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="260" y="348" width="244" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cart" value="Vælg varer på produktsiden&lt;br&gt;og læg dem i indkøbskurven" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="655" y="185" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="shipping-address" value="Angiv modtager&lt;br&gt;og leveringsadresse" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="655" y="306" width="245" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="delivery" value="Vælg leveringsmetode" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="655" y="432" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="card" value="Vælg kreditkort&lt;br&gt;til betaling" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4F8FD;strokeColor=#7D9CBC;strokeWidth=1.4;fontColor=#20344F;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="655" y="554" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="account-required" value="&lt;b&gt;Forudsætning&lt;/b&gt;&lt;br&gt;Kunden har en kundekonto." style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="545" width="264" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="shipping-fields" value="Modtagerens navn&lt;br&gt;Adresse, by og region&lt;br&gt;Postnummer og land" style="shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=13;fillColor=#F6F8FB;strokeColor=#AAB8CA;fontColor=#31445D;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="931" y="300" width="151" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="customer-order" style="endArrow=none;html=1;strokeColor=#3D5065;strokeWidth=1.5;exitX=1;exitY=0.333333;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="customer" target="order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-cart" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.18;entryX=0;entryY=0.5;" edge="1" parent="1" source="order" target="cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-address" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.38;entryX=0;entryY=0.5;" edge="1" parent="1" source="order" target="shipping-address">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-delivery" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.62;entryX=0;entryY=0.5;" edge="1" parent="1" source="order" target="delivery">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-card" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeColor=#425F7B;strokeWidth=1.4;fontColor=#31445D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.82;entryX=0;entryY=0.5;" edge="1" parent="1" source="order" target="card">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="order-precondition" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="order" target="account-required">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="address-details" style="dashed=1;endArrow=none;html=1;strokeColor=#8396AC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="shipping-address" target="shipping-fields">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
