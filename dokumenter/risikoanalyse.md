@@ -44,11 +44,14 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 
 
 kan risikoen overføres?
-ja, dette kan overføres men er ikke hensigstmæssigt på baggrund af at webshoppen er hele firmaets indkomst, så at være afhængig af et andet firma er ikke optimalt. 
+
+ja, dette kan overføres men er ikke hensigstmæssigt på baggrund af at webshoppen er firmaets primære indkomst, så at være afhængig af et andet firma er ikke optimalt. 
+
 
 kan risikoen minimeres?
 
 
+der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
 ## Brugstilfælde 2: Oprettelse af kundekonto
 
@@ -64,8 +67,12 @@ kan risikoen minimeres?
 
 kan risikoen overføres?
 
+ja, dette kan overføres men er ikke hensigstmæssigt på baggrund af at webshoppen er firmaets primære indkomst, så at være afhængig af et andet firma er ikke optimalt. 
+
 kan risikoen minimeres?
 
+
+der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
 
 ## Brugstilfælde 3: Svar på blogindlæg
@@ -82,9 +89,12 @@ kan risikoen minimeres?
 
 kan risikoen overføres?
 
+ja, dette kan overføres men er ikke hensigstmæssigt på baggrund af at webshoppen er firmaets primære indkomst, så at være afhængig af et andet firma er ikke optimalt. 
+
+
 kan risikoen minimeres?
 
-
+der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
 
 
