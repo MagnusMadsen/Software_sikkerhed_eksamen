@@ -14,11 +14,11 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 
 | **Konsekvens** | **Beskrivelse** |
 |---------------|-----------------|
-| **1 - Meget lav** | Der er en meget lille konsekvens, hvis hændelsen opstår. Problemet kan løses inden for **1-4 arbejdstimer** uden brug af ekstra ressourcer. |
-| **2 - Lav** | Der er en lille konsekvens, hvis hændelsen opstår. Problemet kan løses inden for **2-6 arbejdstimer** uden brug af ekstra ressourcer. |
-| **3 - Mellem** | Der er en moderat konsekvens, hvis hændelsen opstår. Problemet kan løses inden for **4-8 arbejdstimer** og kan kræve **1-3 medarbejdere**, men uden større ekstra ressourceforbrug. |
-| **4 - Høj** | Der er en stor konsekvens, hvis hændelsen opstår. Problemet kan løses inden for **1-3 arbejdsdage** ved brug af flere ressourcer end normalt og kan kræve **3-5 medarbejdere** i perioden. |
-| **5 - Meget høj** | Der er en meget stor konsekvens, hvis hændelsen opstår. Problemet kan løses inden for **3-5 arbejdsdage**, kræver omfattende brug af ressourcer og kan involvere størstedelen eller alle medarbejdere i perioden. |
+| **1 - Meget lav** | Der er en meget lille konsekvens, hvis hændelsen opstår. Det samlede økonomiske tab er **under 2.500 kr.**, fx ved en mindre fejlrettelse. |
+| **2 - Lav** | Der er en lille konsekvens, hvis hændelsen opstår. Det samlede økonomiske tab er **fra 2.500 kr. til under 10.000 kr.**, fx ved udgifter til fejlfinding og udbedring. |
+| **3 - Mellem** | Der er en moderat konsekvens, hvis hændelsen opstår. Det samlede økonomiske tab er **fra 10.000 kr. til under 25.000 kr.**, fx ved tabt indtjening under et kort driftsstop. |
+| **4 - Høj** | Der er en stor konsekvens, hvis hændelsen opstår. Det samlede økonomiske tab er **fra 25.000 kr. til under 75.000 kr.**, fx ved tabt indtjening under et længere driftsstop og udgifter til ekstern bistand. |
+| **5 - Meget høj** | Der er en meget stor konsekvens, hvis hændelsen opstår. Det samlede økonomiske tab er **75.000 kr. eller mere**, fx ved omfattende genopretning og erstatningsudgifter. |
 
 
 | **Sandsynlighed** | **Beskrivelse** |
