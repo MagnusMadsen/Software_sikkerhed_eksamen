@@ -93,14 +93,14 @@ der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen n
 ## Misbrugstilfælde 3: misbrug af svar på blogindlæg
 
 
-|            |     |     | **Sandsynlighed** |     |     |     |
-| :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
-|            |     |  1  |       2       |  3  |  4  | 5   |
-|            |  1  |     |               |     |     |     |
-| **Konsekvens** |  2  |     |               |   2  |     |     |
-|            |  3  |     |               |    |     |     |
-|            |  4  |     |               |     |     |     |
-|            |  5  |     |               |     |     |     |
+|                |     |     | **Sandsynlighed** |     |     |     |
+| :------------: | :-: | :-: | :---------------: | :-: | :-: | --- |
+|                |     |  1  |         2         |  3  |  4  | 5   |
+|                |  1  |     |                   |     |     |     |
+| **Konsekvens** |  2  |     |                   |  x  |     |     |
+|                |  3  |     |                   |     |     |     |
+|                |  4  |     |                   |     |     |     |
+|                |  5  |     |                   |     |     |     |
 
 Beregn en risikoscore:
 
@@ -120,12 +120,9 @@ kan risikoen minimeres?
 der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
 
+---
 
+---
 
-## brugstilfælde 1 
-
-
-## brugstilfælde 2 
-
-## brugstilfælde 3 
+---
 
