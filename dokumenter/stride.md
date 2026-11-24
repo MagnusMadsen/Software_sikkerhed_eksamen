@@ -2,13 +2,6 @@
 
 
 
-ID : 1
-
-Misbrugstilfælde : titel
-Berørt systemdel : systemdel (loginside etc)
-STRIDE-kategori : f.eks. spoofing
-foranstaltning : den tekniske foranstaltning f.eks. rate-limiting
-Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibility.
 
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
