@@ -102,6 +102,7 @@ der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen n
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
 
+
 kan risikoen overføres?
 
 ja, dette kan overføres men er ikke hensigstmæssigt på baggrund af at webshoppen er firmaets primære indkomst, så at være afhængig af et andet firma er ikke optimalt. 
