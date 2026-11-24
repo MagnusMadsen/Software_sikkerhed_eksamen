@@ -43,6 +43,12 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 |            |  5  |     |               |     |    x |     |
 
 
+Beregn en risikoscore:
+
+`Risiko = Sandsynlighed × Konsekvens`
+
+* **Bestilling af varer**:  5x4 = **7**
+
 
 kan risikoen overføres?
 
