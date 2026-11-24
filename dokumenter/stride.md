@@ -43,7 +43,7 @@ ID : 3
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
 |----|------------------|------------------|-----------------|-----------------------|------------------------|-------------|
-| 3 | Titel på misbrugstilfælde | Login-side, API, webshop, database osv. | Spoofing / Tampering / Repudiation / Information Disclosure / Denial of Service / Elevation of Privilege | Kort beskrivelse af angrebet og dets konsekvens | F.eks. Rate Limiting, MFA, Inputvalidering, Kryptering, Logging | Confidentiality / Integrity / Availability |
+| 3 | misbrug af svar på blogindlæg| blog-siden | Tampering | Kort beskrivelse af angrebet og dets konsekvens |  Inputvalidering | Confidentiality / Integrity  |
 --- 
 
 
