@@ -60,17 +60,25 @@ kan risikoen minimeres?
 
 der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
-## Brugstilfælde 2: Oprettelse af kundekonto
+## Brugstilfælde 2: bruteforcing af kundekonto
 
 
 |            |     |     | **Sandsynlighed** |     |     |     |
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
 |            |     |  1  |       2       |  3  |  4  | 5   |
 |            |  1  |     |               |     |     |     |
-| **Konsekvens** |  2  |     |               |     |     |     |
-|            |  3  |     |               |  X  |     |     |
+| **Konsekvens** |  2  |     |                 |     |     |     
+|            |  3  |     |               |   x  |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
+
+
+Beregn en risikoscore:
+
+`Risiko = Sandsynlighed × Konsekvens`
+
+* **Bestilling af varer**:  3x3 = **9**
+
 
 kan risikoen overføres?
 
