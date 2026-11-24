@@ -1,6 +1,6 @@
 # risiko analyse
 
-Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 hvor der står det skal være " en eller anden slags skema læs iso for at skrive hvilken". det medføre vi ender med en skema der ser ud som nedenstående. 
+Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 hvor der står det skal være kvalitativt. det medføre vi ender med en skema der ser ud som nedenstående. 
 
 |            |     |     | Sandsynlighed |     |     |     |
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
@@ -44,6 +44,7 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 
 
 kan risikoen overføres?
+ja, dette kan overføres men er ikke hensigstmæssigt på baggrund af at webshoppen er hele firmaets indkomst, så at være afhængig af et andet firma er ikke optimalt. 
 
 kan risikoen minimeres?
 
