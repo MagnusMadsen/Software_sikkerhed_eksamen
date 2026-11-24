@@ -32,7 +32,7 @@ ID : 2
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
 |----|------------------|------------------|-----------------|-----------------------|------------------------|-------------|
-| 2 | Titel på misbrugstilfælde | Login-side, API, webshop, database osv. | Spoofing / Tampering / Repudiation / Information Disclosure / Denial of Service / Elevation of Privilege | Kort beskrivelse af angrebet og dets konsekvens | F.eks. Rate Limiting, MFA, Inputvalidering, Kryptering, Logging | Confidentiality / Integrity / Availability |
+| 2 |misbrug af kundekonto/login | login siden | Spoofing  | ved at have adgang til login siden med password og brugernavn felter er der mulighed for misbrug af kontoen via bruteforcing, som kan ende med en konto bliver overtaget | her kan vi bruge rate-limiting til at forhindre brute-forcing angreb | Confidentiality  |
 
 --- 
 
