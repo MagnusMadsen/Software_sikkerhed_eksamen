@@ -1,5 +1,16 @@
 ## STRIDE 
 
+### Tjekliste for brugstilfælde
+
+Fluebenene viser de relevante STRIDE-kategorier og omfatter mulige følgevirkninger som læsning eller ændring af kundedata efter en kontoovertagelse.
+
+| **Brugstilfælde** | **Spoofing** | **Tampering** | **Repudiation** | **Information Disclosure** | **Denial of Service** | **Elevation of Privilege** |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **1. Bestilling af varer** |  | ✔ |  |  |  |  |
+| **2. Oprettelse af kundekonto** | ✔ | ✔ |  | ✔ |  |  |
+| **3. Svar på blogindlæg** |  | ✔ |  | ✔ |  |  |
+
+### Skabelon til vurdering af misbrugstilfælde
 
 
 
