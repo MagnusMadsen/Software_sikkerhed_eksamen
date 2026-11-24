@@ -28,7 +28,7 @@ Den ovenstående model er den vi vil bruge til oprettelse af vores STRIDE model 
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
 |----|------------------|------------------|-----------------|-----------------------|------------------------|-------------|
-| 1 | Bestilling af negativt antal af varer| Webshop | Tampering - ændring af værdier | Ved ændring af antallet af varer i HTTP requesten til et negativt antal kan det ende ud i at trussels aktøren anskaffer penge istedet for at betale penge | validering af input samt overholdelselse af domæne primitver|Integrity |
+| 1 | Bestilling af negativt antal af varer| Webshop | Tampering - ændring af værdier | Ved ændring af antallet af varer i HTTP requesten til et negativt antal kan det ende ud i at trussels aktøren anskaffer penge istedet for at betale penge | validering af input samt overholdelselse af domæne primitiver|Integrity |
 ___ 
 
 ## misbrugstilfælde 2: misbrug af kundekonto/login
