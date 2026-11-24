@@ -43,7 +43,7 @@ ID : 3
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
 |----|------------------|------------------|-----------------|-----------------------|------------------------|-------------|
-| 3 | misbrug af svar på blogindlæg| blog-siden | Tampering | Kort beskrivelse af angrebet og dets konsekvens |  Inputvalidering | Confidentiality / Integrity  |
+| 3 | misbrug af svar på blogindlæg | blog-siden | Tampering | Hvis bloggen fortolker kommentarer som HTML, kan en trusselsaktør indsende skadeligt indhold, der ændrer sidens visning for andre besøgende og i nogle tilfælde afslører beskyttede oplysninger | Brug inputvalidering og HTML-kodning ved visning, så kommentarer gengives som almindelig tekst | Confidentiality / Integrity |
 --- 
 
 
