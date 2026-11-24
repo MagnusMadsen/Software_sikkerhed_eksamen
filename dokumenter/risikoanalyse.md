@@ -38,9 +38,10 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 |            |     |  1  |       2       |  3  |  4  | 5   |
 |            |  1  |     |               |     |     |     |
 | **Konsekvens** |  2  |     |               |     |     |     |
-|            |  3  |     |               |  X  |     |     |
+|            |  3  |     |               |    |     |     |
 |            |  4  |     |               |     |     |     |
-|            |  5  |     |               |     |     |     |
+|            |  5  |     |               |     |    x |     |
+
 
 
 kan risikoen overføres?
