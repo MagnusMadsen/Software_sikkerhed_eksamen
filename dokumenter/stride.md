@@ -23,28 +23,18 @@ Den ovenstående model er den vi vil bruge til oprettelse af vores STRIDE model 
 ## misbrugstilfælde 1: Bestilling af negativt antal af varer
 
 
-Misbrugstilfælde : titel
-Berørt systemdel : systemdel (loginside etc)
-STRIDE-kategori : f.eks. spoofing
-foranstaltning : den tekniske foranstaltning f.eks. rate-limiting
-Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibility.
+
 
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
 |----|------------------|------------------|-----------------|-----------------------|------------------------|-------------|
-| 1 | Titel på misbrugstilfælde | Login-side, API, webshop, database osv. | Spoofing / Tampering / Repudiation / Information Disclosure / Denial of Service / Elevation of Privilege | Kort beskrivelse af angrebet og dets konsekvens | F.eks. Rate Limiting, MFA, Inputvalidering, Kryptering, Logging | Confidentiality / Integrity / Availability |
+| 1 | Bestilling af negativt antal af varer| Webshop | Tampering - ændring af værdier | Ved ændring af antallet af varer i HTTP requesten til et negativt antal kan det ende ud i at trussels aktøren anskaffer penge istedet for at betale penge | validering af input samt overholdelselse af domæne primitver|Integrity |
 ___ 
 
 ## misbrugstilfælde 2: misbrug af kundekonto/login
 
 
 ID : 2
-
-Misbrugstilfælde : titel
-Berørt systemdel : systemdel (loginside etc)
-STRIDE-kategori : f.eks. spoofing
-foranstaltning : den tekniske foranstaltning f.eks. rate-limiting
-Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibility.
 
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
@@ -56,12 +46,6 @@ Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibilit
 ## Misbrugstilfælde 3: misbrug af svar på blogindlæg
 
 ID : 3
-
-Misbrugstilfælde : titel
-Berørt systemdel : systemdel (loginside etc)
-STRIDE-kategori : f.eks. spoofing
-foranstaltning : den tekniske foranstaltning f.eks. rate-limiting
-Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibility.
 
 
 | ID | Misbrugstilfælde | Berørt systemdel | STRIDE-kategori | Beskrivelse af trussel | Teknisk foranstaltning | CIA-relevans |
