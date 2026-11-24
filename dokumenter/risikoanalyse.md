@@ -33,41 +33,49 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 
 ## Brugstilfælde 1: Bestilling af varer
 
-|            |     |     | Sandsynlighed |     |     |     |
+|            |     |     | **Sandsynlighed** |     |     |     |
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
 |            |     |  1  |       2       |  3  |  4  | 5   |
 |            |  1  |     |               |     |     |     |
-| Konsekvens |  2  |     |               |     |     |     |
+| **Konsekvens** |  2  |     |               |     |     |     |
 |            |  3  |     |               |  X  |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
 
-
+kan risikoen overføres?
+kan risikoen minimeres?
 
 
 
 ## Brugstilfælde 2: Oprettelse af kundekonto
 
-|            |     |     | Sandsynlighed |     |     |     |
+
+|            |     |     | **Sandsynlighed** |     |     |     |
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
 |            |     |  1  |       2       |  3  |  4  | 5   |
 |            |  1  |     |               |     |     |     |
-| Konsekvens |  2  |     |               |     |     |     |
+| **Konsekvens** |  2  |     |               |     |     |     |
 |            |  3  |     |               |  X  |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
+kan risikoen overføres?
+kan risikoen minimeres?
+
 
 
 ## Brugstilfælde 3: Svar på blogindlæg
 
-|            |     |     | Sandsynlighed |     |     |     |
+
+|            |     |     | **Sandsynlighed** |     |     |     |
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
 |            |     |  1  |       2       |  3  |  4  | 5   |
 |            |  1  |     |               |     |     |     |
-| Konsekvens |  2  |     |               |     |     |     |
+| **Konsekvens** |  2  |     |               |     |     |     |
 |            |  3  |     |               |  X  |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
+kan risikoen overføres?
+kan risikoen minimeres?
 
 
 
