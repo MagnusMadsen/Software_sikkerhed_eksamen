@@ -50,11 +50,11 @@ CIA: Ved kontoovertagelse brydes fortroligheden (C), når en uvedkommende får a
 | **Eksempel**  |  Skal have mulighed for at skrive og indsende kommentarer til virksomhedens blogindlæg. Dette skal kunne foregå enten ved, at kunden er logget ind med sin egen konto, eller ved at brugeren kan indsende et svar uden at skulle være logget ind. ind. |
 
 ## Misbrugstilfælde 3: Svar på blogindlæg med skadeligt indhold                                                       
-| Felt                 | Beskrivelse                                                                                                                                                |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Misbrugstilfælde** | Svar på blogindlæg med hensigt på misbrug                                                                                                                  |
-| **Forudsætning**     | Trusselsaktør har adgang til blog siden.                                                                                                                   |
-| **Eksempel**         | Trusselsaktøren har adgang til blog siden og kan oprette svar med skadeligt indhold.            |
+| Felt                 | Beskrivelse                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| **Misbrugstilfælde** | Svar på blogindlæg med hensigt på misbrug                                            |
+| **Forudsætning**     | Trusselsaktør har adgang til blog siden.                                             |
+| **Eksempel**         | Trusselsaktøren har adgang til blog siden og kan oprette svar med skadeligt indhold. |
 
 CIA: På bloggen brydes integriteten (I), hvis en kommentar manipulerer sidens visning for andre. Fortroligheden (C) brydes, hvis beskyttede oplysninger afsløres.
 
