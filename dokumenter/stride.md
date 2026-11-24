@@ -20,8 +20,8 @@ Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibilit
 
 Den ovenstående model er den vi vil bruge til oprettelse af vores STRIDE model og den måde vi vil vurdere vores misbrugstilfælde efter. 
 
+## misbrugstilfælde 1: Bestilling af negativt antal af varer
 
-ID : 1
 
 Misbrugstilfælde : titel
 Berørt systemdel : systemdel (loginside etc)
@@ -35,8 +35,10 @@ Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibilit
 | 1 | Titel på misbrugstilfælde | Login-side, API, webshop, database osv. | Spoofing / Tampering / Repudiation / Information Disclosure / Denial of Service / Elevation of Privilege | Kort beskrivelse af angrebet og dets konsekvens | F.eks. Rate Limiting, MFA, Inputvalidering, Kryptering, Logging | Confidentiality / Integrity / Availability |
 ___ 
 
+## misbrugstilfælde 2: misbrug af kundekonto/login
 
-ID : 1
+
+ID : 2
 
 Misbrugstilfælde : titel
 Berørt systemdel : systemdel (loginside etc)
@@ -51,7 +53,9 @@ Sikkerhed relevant til CIA modellen - confidentiality, integretity, accessibilit
 
 --- 
 
-ID : 1
+## Misbrugstilfælde 3: misbrug af svar på blogindlæg
+
+ID : 3
 
 Misbrugstilfælde : titel
 Berørt systemdel : systemdel (loginside etc)
