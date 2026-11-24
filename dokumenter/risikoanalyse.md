@@ -21,6 +21,14 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 | **5 - Meget høj** | Der er en meget stor konsekvens, hvis hændelsen opstår. Problemet kan løses inden for **3-5 arbejdsdage**, kræver omfattende brug af ressourcer og kan involvere størstedelen eller alle medarbejdere i perioden. |
 
 
+| **Sandsynlighed** | **Beskrivelse** |
+|------------------|-----------------|
+| **1 - Meget lav** | Sårbarheden kræver meget specifikke forhold, avanceret viden eller intern adgang for at kunne udnyttes. Der findes ingen kendte angreb eller aktive trusselsaktører, der målretter denne type sårbarhed. |
+| **2 - Lav** | Sårbarheden kan udnyttes, men kræver betydelige ressourcer, specialiseret viden eller adgang til systemer, som normalt er utilgængelige for angribere. Der findes få kendte eksempler på misbrug. |
+| **3 - Mellem** | Sårbarheden kan udnyttes af en erfaren angriber med almindeligt tilgængelige værktøjer og viden. Der findes kendte angrebsmetoder, men de kræver en vis indsats eller særlige betingelser. |
+| **4 - Høj** | Sårbarheden kan relativt let udnyttes af eksterne angribere. Offentligt tilgængelige værktøjer eller exploits eksisterer, og lignende sårbarheder ses regelmæssigt udnyttet i praksis. |
+| **5 - Meget høj** | Sårbarheden er let at udnytte over internettet uden særlige forudsætninger. Automatiserede angreb, bots eller kendte exploits gør det sandsynligt, at den vil blive forsøgt udnyttet løbende mod webshoppen. |
+
 
 
 ## Brugstilfælde 1: Bestilling af varer
