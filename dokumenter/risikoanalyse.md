@@ -47,7 +47,7 @@ Beregn en risikoscore:
 
 `Risiko = Sandsynlighed × Konsekvens`
 
-* **Bestilling af varer**:  5x4 = **7**
+* **Bestilling af varer**:  5x4 = **20**
 
 
 kan risikoen overføres?
