@@ -42,7 +42,9 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
 
+
 kan risikoen overføres?
+
 kan risikoen minimeres?
 
 
@@ -58,7 +60,9 @@ kan risikoen minimeres?
 |            |  3  |     |               |  X  |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
+
 kan risikoen overføres?
+
 kan risikoen minimeres?
 
 
@@ -74,7 +78,9 @@ kan risikoen minimeres?
 |            |  3  |     |               |  X  |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
+
 kan risikoen overføres?
+
 kan risikoen minimeres?
 
 
