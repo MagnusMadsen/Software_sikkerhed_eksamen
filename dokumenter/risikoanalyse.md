@@ -31,7 +31,7 @@ Risiko analysen bliver udarbejdet efter et skema'er sådan vi følger ISO 27005 
 
 
 
-## Brugstilfælde 1: Bestilling af varer
+## misbrugstilfælde 1: Bestilling af negativt antal af varer
 
 |            |     |     | **Sandsynlighed** |     |     |     |
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
@@ -60,7 +60,7 @@ kan risikoen minimeres?
 
 der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
-## Brugstilfælde 2: bruteforcing af kundekonto
+## misbrugstilfælde 2: misbrug af kundekonto/login
 
 
 |            |     |     | **Sandsynlighed** |     |     |     |
@@ -90,7 +90,7 @@ kan risikoen minimeres?
 der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen ned til at være meget lav i sandsynlighed og konsekvens.
 
 
-## Brugstilfælde 3: Svar på blogindlæg
+## Misbrugstilfælde 3: misbrug af svar på blogindlæg
 
 
 |            |     |     | **Sandsynlighed** |     |     |     |
