@@ -97,10 +97,17 @@ der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen n
 | :--------: | :-: | :-: | :-----------: | :-: | :-: | --- |
 |            |     |  1  |       2       |  3  |  4  | 5   |
 |            |  1  |     |               |     |     |     |
-| **Konsekvens** |  2  |     |               |     |     |     |
-|            |  3  |     |               |  X  |     |     |
+| **Konsekvens** |  2  |     |               |   2  |     |     |
+|            |  3  |     |               |    |     |     |
 |            |  4  |     |               |     |     |     |
 |            |  5  |     |               |     |     |     |
+
+Beregn en risikoscore:
+
+`Risiko = Sandsynlighed × Konsekvens`
+
+* **Bestilling af varer**:  4x2 = **8**
+
 
 
 kan risikoen overføres?
