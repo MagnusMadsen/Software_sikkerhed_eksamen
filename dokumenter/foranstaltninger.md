@@ -15,6 +15,9 @@ bruger konto er f.eks. entitys, det er en entity hvor nogen attributter kan ænd
 **kontroller om dette er overholdt i koden** 
 
 
+### eksplicit vs implicit data 
+
+implicit er ting der er en konsensus om uden en samtale om det, alting burde i software udvikling være eksplicit, altså hvis vi falder over noget vi mener er implicit, så skal det  stadig diskuteres sådan det bliver implicit. Det gør at vi kan oprette regler for den del af koden, f.eks. quantitys vil altid have sine regler overholdt, fordi de er koblet direkte til oprettelsen af variablen.
 
 ## ID 1
 
