@@ -20,7 +20,11 @@ Dette misbrugstilfælde vil benefite meget af korrekte domæner primitiver, f.ek
 INTET i et domæne primitiv må være en generisk data type.
 
 for eksempel skal antal af varer aldrig bare være int varer = 0 men det skal være sat op som en kompleks data type med regler.
- Eksempel kan findes på side 222 i secure by design.
+Eksempel kan findes på side 222 i secure by design.
+
+Fordelen er at ved oprettelse af domæne primitiver kan de bruges i de API'er man skal arbejde med, sådan at input validering er garanteret fordi alle værdier er på forhånd defineret til at overholde et vis sæt regler.
+
+det er vigtigt ikke at give Domæne primitivt direkte til front'enden, det er her en DTO klasse kommer ind og frakobler domæne primitivet, reglerne kan stadig overholdes i en DTO, men DTO'en er det eneste vi præsentere, sådan man kan udvikle back'enden uden at bekymre sig over f.eks. en RESt api i frontend'en.
 
 
 ## ID 2 
