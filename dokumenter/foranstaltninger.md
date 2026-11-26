@@ -9,6 +9,10 @@ Dette kan bedst gøres ved at bruge best practice af at tjekke alle pre conditio
 kan læses om i kapitel 4.2
 
 
+### entity's
+bruger konto er f.eks. entitys, det er en entity hvor nogen attributter kan ændre sig, her kan man f.eks. oprette unique user ids til at identificiere konto'er, så er brugeren fri til at skifte f.eks. email, adresse, kredit kort osv. kunde konto'en skal beholde det samme unikke id, selvom attributer bliver ændret.
+
+**kontroller om dette er overholdt i koden** 
 
 
 
@@ -24,7 +28,8 @@ Eksempel kan findes på side 222 i secure by design.
 
 Fordelen er at ved oprettelse af domæne primitiver kan de bruges i de API'er man skal arbejde med, sådan at input validering er garanteret fordi alle værdier er på forhånd defineret til at overholde et vis sæt regler.
 
-det er vigtigt ikke at give Domæne primitivt direkte til front'enden, det er her en DTO klasse kommer ind og frakobler domæne primitivet, reglerne kan stadig overholdes i en DTO, men DTO'en er det eneste vi præsentere, sådan man kan udvikle back'enden uden at bekymre sig over f.eks. en RESt api i frontend'en.
+### DTO klasser
+det er vigtigt ikke at give Domæne primitiver direkte til frontend'en, det er her en DTO klasse kommer ind og frakobler domæne primitivet, reglerne kan stadig overholdes i en DTO, men DTO'en er det eneste vi præsentere, sådan man kan udvikle back'enden uden at bekymre sig over f.eks. en RESt api i frontend'en.
 
 
 ## ID 2 
