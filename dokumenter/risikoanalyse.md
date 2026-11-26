@@ -126,3 +126,6 @@ der er tekniske foranstaltninger der kan tages i brug som vil mindske risikoen n
 
 ---
 
+## argument for priotering 
+
+Prioiteringen er baseret på hvad regnestykket sandsynlighed x konsvekens er, det tilfælde der har det højeste tal efter regnestykket er altså højest prioiteret, ikke fordi det har størst sandsynlighed eller størst konsekvens, men fordi sammenlagt bliver det den højeste nævner, som medføre at det har den største risiko for firmaet.
